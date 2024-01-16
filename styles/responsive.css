@@ -13,6 +13,7 @@
     .popular-container{
         flex-direction: column;
         margin-top: 20px;
+        border: 2px solid red;
     }
     .popular-text{
         margin-left: 24px;
@@ -20,7 +21,7 @@
     .popular-description{
         margin: 0px;
     }
-    .popular-img{
-        margin-top: 0;
+    .popular-container,.popular-img{
+        object-fit: cover;
     }
 }

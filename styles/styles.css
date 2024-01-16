@@ -134,9 +134,9 @@ gap: 100px;
   /* max-width: 700px; */
 /* width: 48%; */
 }
-/* .popular-img{
-width:48%;
-} */
+.popular-img{
+  width: 100%;
+}
 .primary-heading{
   margin-bottom: 24px;
 }
