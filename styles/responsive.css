@@ -13,15 +13,21 @@
     .popular-container{
         flex-direction: column;
         margin-top: 20px;
-        border: 2px solid red;
     }
     .popular-text{
+        width: 90%;
         margin-left: 24px;
     }
     .popular-description{
         margin: 0px;
     }
+    .popular-bottm-text {
+        margin-bottom: 30px;
+      }
     .popular-container,.popular-img{
         object-fit: cover;
+    }
+    .maldives , .srilanka , .bangladesh{
+        flex-direction: column;
     }
 }
