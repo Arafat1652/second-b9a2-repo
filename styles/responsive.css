@@ -1,0 +1,13 @@
+@media screen and (max-width:576px) {
+    .btn{
+        flex-direction: column;
+        margin: 0;
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+    .banner{
+        margin-top: 0;
+        padding: 0;
+    }
+}

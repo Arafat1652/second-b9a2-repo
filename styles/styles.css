@@ -1,9 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* common share style */
-*{
-        font-family: "Mulish", sans-serif;  
+* {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* header style */
+.header-section {
+  max-width: 1170px;
+  margin: 0 auto;
+}
 
 /* nav style */
+.nav-container {
+  display: flex;
+}
+.logo {
+  display: flex;
+  gap: 16px;
+  width: 50%;
+  align-items: center;
+}
+.home-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-container a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
+}
+.home-style {
+  color: #ff5400;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* banner style */
+.banner {
+  margin-top: 105px;
+  padding: 7rem;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/Group\ 13.png);
+  border-radius: 16px;
+}
+.banner-container {
+  /* margin-top: 50px; */
+  /* border: 1px solid gray; */
+}
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 800;
+}
+.banner-description {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.btn {
+  display: flex;
+  gap: 24px;
+  width: 85%;
+  margin: 50px auto;
+  padding: 16px;
+  border: 0px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.btn-white {
+  width: 174px;
+  height: 52px;
+  text-align: center;
+  border-radius: 8px;
+  border: 0px;
+  background: #fff;
+}
+.btn-primary {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border: 0px;
+  border-radius: 8px;
+  background: #ff5400;
+}
