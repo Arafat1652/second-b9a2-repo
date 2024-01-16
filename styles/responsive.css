@@ -10,4 +10,17 @@
         margin-top: 0;
         padding: 0;
     }
+    .popular-container{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .popular-text{
+        margin-left: 24px;
+    }
+    .popular-description{
+        margin: 0px;
+    }
+    .popular-img{
+        margin-top: 0;
+    }
 }
