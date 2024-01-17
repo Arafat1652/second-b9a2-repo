@@ -53,7 +53,7 @@
 /* banner style */
 .banner {
   margin-top: 105px;
-  padding: 7rem;
+  padding: 112px;
   background-repeat: no-repeat;
   background-image: linear-gradient(
       180deg,
@@ -88,8 +88,7 @@
   padding: 16px;
   border: 0px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.3);
-  flex-wrap: wrap;
+  /* background: rgba(255, 255, 255, 0.3); */
 }
 .btn-white {
   width: 174px;
@@ -197,3 +196,104 @@ z-index: 1;
 .maldives-img{
 position: relative;
 } */
+
+/* why choose us style */
+.box-container{
+  gap: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.why-title{
+  margin-top: 100px;
+  margin-bottom: 24px;
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+
+}
+.why-description{
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.hotel-box-title{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.hotel-box-description{
+  color: #5A5A5D;
+  width: 486px;
+  margin-top: 16px;
+}
+.fa-solid{
+  font-size: 4rem;
+  margin-bottom: 32px;
+}
+.hotel-box-handpick{
+  width: 500px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  
+}
+.hotel-box-1{
+  padding: 35px;
+}
+
+.hotel-box-world{
+  width: 500px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05)
+}
+
+.hotel-box-best{
+  width: 500px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  margin-bottom: 100px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);  
+}
+
+/* news letter style */
+.news-container{
+  width: 100%;
+  display: flex;
+  border: 2px solid red;
+  /* justify-content: space-between; */
+}
+.news-text{
+  border: 2px solid rgb(9, 20, 238);
+  width: 100%;
+}
+.news-title{
+color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.news-description{
+width: 350px;
+color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+.news-text input{
+  display: block;
+}
+
+.news-img img{
+  width: 50%
+}

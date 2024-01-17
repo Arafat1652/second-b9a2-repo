@@ -1,4 +1,9 @@
-@media screen and (max-width:576px) {
+/* mobile device */
+@media screen and (max-width:600px) {
+    /* *{
+        max-width: 600px;
+        padding: 0 auto;
+    } */
     .btn{
         flex-direction: column;
         margin: 0;
@@ -8,7 +13,8 @@
     }
     .banner{
         margin-top: 0;
-        padding: 0;
+        padding: 0px;
+        
     }
     .popular-container{
         flex-direction: column;
@@ -24,10 +30,44 @@
     .popular-bottm-text {
         margin-bottom: 30px;
       }
-    .popular-container,.popular-img{
-        object-fit: cover;
+    .popular-img{
+        /* object-fit: cover; */
+        padding: 10px;
     }
     .maldives , .srilanka , .bangladesh{
         flex-direction: column;
+        padding: 10px;
+    }
+    .choose-img-container{
+        padding: 10px;
+    }
+    .box-container{
+        margin: 10px;
     }
 }
+
+
+/* laptop device */
+@media screen and (min-width:992px) and (max-width:1176px) {
+    .btn{
+    
+        padding: 0px;
+        width:100% ;
+    }
+    .maldives , .srilanka , .bangladesh{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .popular-container{
+        padding: 10px;
+        text-align: center;
+    }
+   .box-container{
+    /* padding: 300px; */
+   }
+   .hotel-box-handpick , .hotel-box-world , .hotel-box-best{
+    width: 100%;
+   }
+}
+
+
