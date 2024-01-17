@@ -36,16 +36,25 @@
     }
     .maldives , .srilanka , .bangladesh{
         flex-direction: column;
-        padding: 10px;
+        padding-left: 10px;
+        margin-left: 20px;
     }
     .choose-img-container{
         padding: 10px;
     }
     .box-container{
         margin: 10px;
+        
     }
+    .hotel-box-handpick , .hotel-box-world , .hotel-box-best{
+        /* width: 10%; */
+        padding: 10px;
+       }
     .news-container {
         flex-direction: column;
+    }
+    .news-text{
+        padding: 10px;
     }
     .news-img{
         padding: 10px;
@@ -78,5 +87,4 @@
     width: 100%;
    }
 }
-
 
