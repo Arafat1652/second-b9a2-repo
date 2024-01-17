@@ -44,6 +44,15 @@
     .box-container{
         margin: 10px;
     }
+    .news-container {
+        flex-direction: column;
+    }
+    .news-img{
+        padding: 10px;
+    }
+    .travel-com{
+    display: none;
+    }
 }
 
 
