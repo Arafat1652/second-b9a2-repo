@@ -48,7 +48,6 @@
     }
     .hotel-box-handpick , .hotel-box-world , .hotel-box-best{
         /* width: 10%; */
-        padding: 10px;
        }
     .news-container {
         flex-direction: column;
@@ -62,6 +61,12 @@
     .travel-com{
     display: none;
     }
+    .h{
+        width: 100%;
+    }
+    .footer-container{
+        
+
 }
 
 
