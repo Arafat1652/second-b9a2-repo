@@ -126,6 +126,9 @@
     .h{
         width: 100%;
     }
+    .footer-section{
+        width: 100%;
+       }
 
 
 }
@@ -137,18 +140,27 @@
         padding: 0px;
         width:100% ;
     }
+    /* .banner{
+        padding: 20px;
+    } */
     .maldives , .srilanka , .bangladesh{
         flex-direction: column;
         padding: 10px;
     }
     .popular-container{
-        padding: 10px;
+        padding: 15px;
         text-align: center;
     }
    .box-container{
-    /* padding: 300px; */
+    padding: 20px;
    }
    .hotel-box-handpick , .hotel-box-world , .hotel-box-best{
+    width: 100%;
+   }
+   .hotel-box-description{
+    width: 100%;
+   }
+   .footer-section{
     width: 100%;
    }
 }
